@@ -1,0 +1,44 @@
+/*Footer*/
+footer {
+  margin-top: 5rem;
+}
+i.fa.fa-github {
+  margin-left: 15px;
+  margin-top:5px;
+  font-size: 3.5em;
+  vertical-align: middle;
+}
+a.glyphicon.glyphicon-envelope {
+  margin-left: 10px;
+  margin-top:5px;
+  font-size: 2.5em;
+  top: 0.5em;
+}
+/* End Footer*/
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/68/ef/5b/68ef5bd06423e67237c40de56e289509.jpg");
+  color: white;
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main {
+  background-color: black;
+  width: 40%;
+  opacity: 0.82;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+}
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+}
+hr {
+  width: 80%;
+}
+h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: italic;
+}
