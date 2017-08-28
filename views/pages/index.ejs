@@ -21,13 +21,15 @@
    <% include ../partials/footer.ejs %>
    <script>
    $(document).ready(function(){
-       var lat;
-       var long;
+
        $.getJSON("http://ip-api.com/json",function(data2){
+         var lat;
+         var long;
          lat=data2.lat;
          long=data2.lon;
 
        var openApi = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid=691c1e153351f780c9a6e0268402a27b';
+
        $.getJSON(openApi, function(data){
          var kelvin;
          var farh;
@@ -77,9 +79,11 @@
              else if(farh>20){
               $('body').css('background-image', 'url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQt5azPKsfSLkxFQEItYv1FrYfuomfjGAWFPr7JLUrCCPnQDoMtDg)');
            }
-          });
+
+         });
+       });
      });
-     });
+
    </script>
  </footer>
 </html>
