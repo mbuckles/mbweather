@@ -28,7 +28,7 @@
          lat=data2.lat;
          long=data2.lon;
 
-       var openApi = 'https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid=691c1e153351f780c9a6e0268402a27b';
+       var openApi = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid=691c1e153351f780c9a6e0268402a27b';
 
        $.getJSON(openApi, function(data){
          var kelvin;
